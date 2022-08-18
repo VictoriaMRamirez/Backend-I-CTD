@@ -1,0 +1,17 @@
+[2022-03-26 07:16:03] [ERROR] [App:26] The list is empty.
+java.lang.Exception: The list is empty.
+	at Class8.Exercise1.App.calculateAverage(App.java:25)
+	at Class8.Exercise1.Main.main(Main.java:8)
+[2022-03-26 07:16:03] [INFO ] [App:19] The list has more than 5 elements. Total: 6
+[2022-03-26 07:16:03] [INFO ] [App:31] The average of the list is: 3
+[2022-03-26 07:16:03] [INFO ] [App:19] The list has more than 5 elements. Total: 7
+[2022-03-26 07:16:03] [INFO ] [App:19] The list has more than 5 elements. Total: 8
+[2022-03-26 07:16:03] [INFO ] [App:19] The list has more than 5 elements. Total: 9
+[2022-03-26 07:16:03] [INFO ] [App:19] The list has more than 5 elements. Total: 10
+[2022-03-26 07:16:03] [INFO ] [App:17] The list has more than 10 elements. Total: 11
+[2022-03-26 07:16:03] [INFO ] [App:31] The average of the list is: 6
+[2022-03-26 07:16:55] [ERROR] [Main:28] The list is empty.
+[2022-03-26 07:17:23] [INFO ] [Main:26] The list has more than 5 elements.
+[2022-03-26 07:17:24] [INFO ] [Main:32] Average: 3.0
+[2022-03-26 07:17:49] [INFO ] [Main:25] The list has more than 10 elements.
+[2022-03-26 07:17:49] [INFO ] [Main:32] Average: 5.0

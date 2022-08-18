@@ -1,0 +1,23 @@
+EXERCISE 1:
+En un centro de vacunación las personas inscriptas y con turno, además de conocer su nombre, apellido y dni,
+tienen asignada una fecha de vacunación y la vacuna que se les aplicará. Estas pueden concurrir un día
+posterior a la fecha asignada, por lo cual, cuando se vacuna es necesario informar mediante el método
+vacunar(), que esta ya fue aplicada. En el momento de la vacunación, se debe registrar la confirmación con
+el dni, fecha y vacuna. Para evitar que la información sea inconsistente, se debe controlar que la fecha
+sea igual o posterior a la fecha asignada. Se debe utilizar un proxy para efectuar este control.
+
+Para simplificar el ejecicio, si el registro es correcto se emite un mensaje con la información registrada.
+
+Crear los casos de prueba necesarios requeridos para garantizar la calidad el método vacunar().
+
+/------------------------------------------------------------------------------------------------------------/
+
+EXERCISE 2:
+El servicio de Spotify pago permite descargar canciones para escuchar offline. Cuando un usuario solicita
+descargar una canción, el servicio de Spotify comprueba si es un usuario premium, para darle acceso a esta
+funcionalidad. Los usuarios tienen un identificador y un string con el tipo de usuario (“Free”, “Premium”).
+
+Implementar una clase servicioDescarga que permita descargar una canción y mediante el patrón proxy comprobar
+si es posible hacerlo.
+
+Crear los casos de prueba necesarios para garantizar la calidad del método descargar().

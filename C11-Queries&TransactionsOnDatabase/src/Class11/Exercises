@@ -1,0 +1,25 @@
+EJERCICIO 1:
+Crear una entidad que se llame Cuenta en la BD H2 que tenga 3 campos:
+• nroCuenta: Integer
+• name: String
+• balance: Double
+
+Crear una connection a la BD e insertar una fila cuenta. Luego hacer un update
+que le sume 10 a balance, después crear una tx y sumar otros 15 y generar una
+excepción.
+
+Finalmente, corroborar con una consulta que la cuenta tiene un salgo igual al
+balance inicial + 10.
+
+/---------------------------------------------------------------------------------------------/
+
+EXERCISE 1:
+Create an entity called Account in database H2 which must have 3 fields:
+• accountNumber: Integer
+• name: String
+• balance: Double
+
+Create a connection to the database and insert a row account. Then, make an update
+which adds 10 to balance. Create a transaction and add other 15. Generate an exception.
+
+Finally, verify with a query that the account has a balance equals to the initial balance + 10.

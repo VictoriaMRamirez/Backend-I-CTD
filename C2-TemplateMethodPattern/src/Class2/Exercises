@@ -1,0 +1,55 @@
+EJERCICIO 1:
+Para realizar la liquidación de sueldos es necesario realizar 3 pasos: calcular el sueldo
+correspondiente, imprimir o generar recibos de sueldo y depositar el importe correspondiente.
+
+Hay 2 tipos de empleados. Los empleados efectivos, el cálculo es a partir de un sueldo básico y se
+agregan descuentos y premios. Los empleados contratados trabajan una cantidad de horas, con una tarifa
+por hora específica. Con esta información se realiza el cálculo del sueldo a pagar y luego se imprime.
+Finalmente, se deposita.
+
+El proceso que realizamos es liquidarSueldo(). Este lleva 3 pasos: cálculo, impresión y depósito. En
+cuanto al cálculo, este se realiza según el tipo de empleado. La impresión puede ser digital (en el caso
+de los contratados) o en un recibo en papel (en el caso de los efectivos). Por último el depósito es en
+una cuenta bancaria.
+
+Todos los empleados tienen nombre, apellido y un número de cuenta que servirá para dirigir los
+sueldos. Los empleados efectivos tienen como información: sueldo básico y un valor fijo de descuentos
+y otro de premios. Los empleados contratados tienen cantidad de horas trabajadas y valor por hora.
+
+Para certificar la calidad de nuestro programa, tendremos los siguientes casos de prueba:
+
+CASO 1: debería emitir un documento digital cuando es un empleado efectivo.
+• Dado: un empleado efectivo, Martín Martini, con un sueldo básico de 400, un valor fijo de descuentos
+de 40 y un total de 60 en premios.
+• Cuando: intento calcular la liquidación.
+• Entonces: obtengo el mensaje “La liquidación generada es un documento digital. Saldo a liquidar: 420”.
+
+CASO 2: debería emitir un documento impreso cuando es un empleado contratado.
+• Dado: una empleada contratada, Pompilia Pompini, con 120 horas trabajadas y una tarifa de 7 por hora.
+• Cuando: intento calcular la liquidación.
+• Entonces: obtengo el mensaje “La liquidación generada es un documento impreso. Saldo a liquidar: 840”.
+
+CASO 3: el liquidador debería arrojar un mensaje de error cuando no es posible calcular la liquidación.
+• Dados: un liquidador de empleado efectivo y una empleada contratada, Pompilia Pompini.
+• Cuando: intento calcular la liquidación.
+• Entonces: obtengo el mensaje “La liquidación no pudo ser calculada”.
+
+/--------------------------------------------------------------------------------------------------------/
+
+EJERCICIO 2:
+Se desea apoyar el proceso de armado de menús para llevar en un negocio de comidas rápidas. Se ofrecen
+3 tipos de menús: clásico, infantil y vegetariano. Los menús tienen un precio base al cual se le suman
+los recargos de acuerdo a lo siguiente:
+• Menú infantil: 3 pesos adicionales por cada juguete incluido.
+• Menú vegetariano: 1% adicional por especias y 2 pesos por cada salsa vegetariana.
+• Menú clásico: no tiene recargos.
+
+Cuando un cliente adquiere los productos, los empleados deben armar el paquete de cada menú y luego
+calcular su costo. El proceso de preparar un menú implica el armado y luego su cálculo del precio de
+venta.
+
+Necesitamos un sistema que muestre un mensaje a los empleados sobre cómo debe armarse el menú. De esta
+manera, podremos garantizar la uniformidad en las entregas. Luego, deberá informar el costo final del
+menú vendido.
+
+Debemos desarrollar las clases y pruebas necesarias para lograr el proceso explicado de preparación.

@@ -1,0 +1,13 @@
+EXERCISE:
+Continuando con el ejercicio que hiciste con el docente, se nos agregó un nuevo
+pedido del cliente. Nuestro product owner se dio cuenta de que hay una
+funcionalidad que no puede faltar y nos pide poder realizar búsquedas por id
+de medicamentos.
+
+Para ello, debés utilizar H2 como base de datos aplicando el patrón DAO para
+acceder a los datos y realizar un método que nos permita buscar por id los
+medicamentos. Luego, loguear el resultado o la ejecución de cada operación
+utilizando log4j.
+
+¡Bonus! Si terminaste y aún tenés tiempo, podés empezar con el testeo unitario
+de la búsqueda de medicamentos por id.

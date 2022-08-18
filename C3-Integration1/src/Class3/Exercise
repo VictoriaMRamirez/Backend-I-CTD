@@ -1,0 +1,36 @@
+DESAFÍO I:
+Una empresa de ventas digitales nos pide modificar el modelado de su sistema.
+Actualmente el sistema permite clasificar a los vendedores con base en el cumplimiento
+de ciertos requisitos. Se consideran los siguientes aspectos:
+• Tanto empleados como afiliados son vendedores.
+• Todos los vendedores devuelve una categoría (mostrarCategoria) según la cantidad de
+puntos alcanzados.
+• El objetivo de los empleados es conseguir afiliados (conseguirAfiliado) y hacer ventas
+(vender). Cada uno consigue 10 puntos por cada nuevo afiliado, 5 puntos por cada venta
+que realice y 5 puntos por cada año de antigüedad que posea.
+• El objetivo de los afiliados es hacer ventas (vender), pero el cálculo de los puntos es
+diferente: consiguen 15 puntos por cada nueva venta.
+
+Los vendedores se categorizan de la siguiente manera:
+• Menos de 20 puntos = novatos.
+• Entre 20 y 30 puntos = aprendices.
+• Entre 31 y 40 puntos = buenos.
+• Más de 40 puntos = maestros.
+
+Se deberá implementar un método mostrarCatetogia que primero deberá calcularPuntos, luego
+recategorizar de acuerdo al puntaje obtenido en el método anterior y por último mostrar por
+consola el nombre del vendedor el total de puntos y la categoría.
+
+Realizar los casos de prueba necesarios para garantizar la calidad del método mostrarCategoría().
+
+/------------------------------------------------------------------------------------------------/
+
+DESAFÍO II:
+Se nos solicita crear un tercer tipo de vendedor llamado pasante. El objetivo de los pasantes es
+hacer ventas, por cada una recibirán 5 puntos. Los pasantes categorizan de la siguiente manera:
+• Menos de 50 puntos = pasante novato.
+• 50 puntos o más = pasante experimentado.
+
+Ejemplos de salida:
+• “Juan tiene un total de 22 puntos, categoriza como aprendiz”.
+• “Pedro tiene un total de 9 puntos, categoriza como novato”.

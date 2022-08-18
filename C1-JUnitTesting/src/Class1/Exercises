@@ -1,0 +1,58 @@
+EJERCICIO 1:
+Crear app que permita agregar personas a un grupo. El requisito para ser admitidas
+es que la persona tenga mas de 18 años y tener un nombre de 5 letras o más.
+
+Crear casos de prueba para los siguientes escenarios:
+• Dadas 5 personas (Juan, Pedro, Ana, Luz, Julián) y una colección vacía de objetos
+tipo Persona, cuando se intentan agregar estas a la colección, el tamaño debería
+ser 2.
+
+/--------------------------------------------------------------------------------/
+
+EXERCISE 1:
+Build an app that allows you to add people to a group. The requirement to be admitted is
+that the person has to have more than 18 years old and has a name with 5 letters or more.
+
+Create test cases for the following scenarios:
+• Given 5 people (Juan, Pedro, Ana, Luz, Julian) and an empty object collection named
+Person, when we try to add this people to the collection, the size should be 2.
+
+/-----------------------------------------------------------------------------------/
+
+EJERCICIO 2:
+Se debe desarrollar un programa que permita calcular el perímetro de una figura
+geométrica, la cual puede ser un círculo o un cuadrado. El programa debe responder el
+mensaje: “El área del X es Y unidades”, donde X es el tipo de figura geométrica y Y es
+el valor calculado del área.
+
+Para el cálculo de las áreas será necesario recibir como parámetro el radio del círculo o
+el lado del cuadrado, cuyos valores deben ser mayores que cero. En caso de que esta
+condición no se cumpla, se debe imprimir el mensaje: “El valor del radio o lado debe ser
+mayor que cero”.
+
+Las fórmulas para el cálculo del área del círculo y del cuadrado son:
+• Círculo: 𝜋 r2
+• Cuadrado: L2
+
+Recordemos siempre qué casos de prueba van a ser requeridos antes de implementar la lógica
+de los métodos.
+
+/-----------------------------------------------------------------------------------/
+
+EXERCISE 2:
+You must built a program that allows you to calculate the perimeter of a geometric figure,
+which can be a circle o a square. The program must answer the following message: "The area
+of X is Y units", where X is the type of geometric figure and Y is the calculated value of
+the area.
+
+To calculate the areas it will be needed to receive as a parameter the radio of the circle
+or the size of the square, whose values should be greater than 0. In case this condition
+doesn't exist, it should print a message: "The value of the radio or size must be greater
+than 0".
+
+The formulas to calculate the area of the circle and the square are:
+• Circle: 𝜋 r2
+• Square: S2
+
+Remember which test cases are going to be required before you implement the logic of the
+methods.

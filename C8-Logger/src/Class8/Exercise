@@ -1,0 +1,13 @@
+EJERCICIO 1:
+Crear una aplicación que calcule el promedio de valores, el máximo y el mínimo en
+una lista de enteros:
+List<Integer> listaEnteros
+
+Deben loguear:
+• Cuando la lista tiene más de 5 elementos.
+• Cuando la lista tiene más de 10 elementos
+• El promedio.
+• Arrojar un error si la lista no tiene elementos y loguearlo.
+
+Luego, deben crear una clase main, donde creamos una lista para cada uno de los
+ítems y chequear que los logs existan.

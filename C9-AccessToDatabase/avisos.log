@@ -1,0 +1,7 @@
+[2022-03-26 22:56:32] [INFO ] [Main:55] Animal{id=5, name='Firulais', type='dog'}
+[2022-03-26 23:08:34] [INFO ] [Main:37] Creating table in given database.
+[2022-03-26 23:08:34] [INFO ] [Main:56] Figure{id=1, type='circle', color='red'}
+[2022-03-26 23:08:34] [INFO ] [Main:56] Figure{id=2, type='circle', color='blue'}
+[2022-03-26 23:08:34] [INFO ] [Main:56] Figure{id=3, type='square', color='red'}
+[2022-03-26 23:08:34] [INFO ] [Main:56] Figure{id=4, type='square', color='blue'}
+[2022-03-26 23:08:34] [INFO ] [Main:56] Figure{id=5, type='square', color='yellow'}
